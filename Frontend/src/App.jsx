@@ -24,8 +24,8 @@ function App() {
           <Navigate to={"/"} />} />
         <Route path='/login' element={<Login />} />
         <Route path='profile' element={userData ? <Profile /> : <Navigate to={"/signup"} />} />
-        {/* <Route path="/forget-password" element={<ForgetPassword />} /> */}
-        <Route path='/forget' element={userData ? <ForgetPassword/>:<Navigate to={"/signup"}/>}/>
+        <Route path="/forget-password" element={<ForgetPassword />} />
+        {/* <Route path='/forget' element={userData ? <ForgetPassword/>:<Navigate to={"/signup"}/>}/> */}
         <Route path='/editprofile' element={userData ? <EditProfile/>:<Navigate to={"/signup"}/>}/>
         
 

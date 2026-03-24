@@ -1,6 +1,13 @@
 import React from 'react'
 import { SiViaplay } from "react-icons/si";
 import { TbDeviceDesktopAnalytics } from "react-icons/tb";
+import { LiaUikit } from "react-icons/lia";
+import { MdAppShortcut } from "react-icons/md";
+import { SiHackthebox } from "react-icons/si";
+import { SiOpenai } from "react-icons/si";
+import { Si365Datascience } from "react-icons/si";
+import { IoAnalytics } from "react-icons/io5";
+import { SiOpenaigym } from "react-icons/si";
 
 function ExploreCourses() {
   return (
@@ -21,56 +28,56 @@ function ExploreCourses() {
             <div className='w-[100px] h-[90px] bg-[#fbd9fb] rounded-lg flex items-center justify-center'>
         <TbDeviceDesktopAnalytics className='w-[60px] h-[60px] text-[#6d6c6c]'/>
             </div>
-            Web Development
+            Web Dev
         </div>
 
         <div className='w-[100px] h-[130px] font-light text-[13px] flex flex-col gap-3 text-center'>
-            <div className='w-[100px] h-[90px] bg-[#fbd9fb] rounded-lg flex items-center justify-center'>
-        <TbDeviceDesktopAnalytics className='w-[60px] h-[60px] text-[#6d6c6c]'/>
+            <div className='w-[100px] h-[90px] bg-[#d9fbe0] rounded-lg flex items-center justify-center'>
+        <LiaUikit className='w-[60px] h-[60px] text-[#6d6c6c]'/>
             </div>
-            Web Development
+            UI/UX Designing
         </div>
 
         <div className='w-[100px] h-[130px] font-light text-[13px] flex flex-col gap-3 text-center'>
-            <div className='w-[100px] h-[90px] bg-[#fbd9fb] rounded-lg flex items-center justify-center'>
-        <TbDeviceDesktopAnalytics className='w-[60px] h-[60px] text-[#6d6c6c]'/>
+            <div className='w-[100px] h-[90px] bg-[#7ed69a] rounded-lg flex items-center justify-center'>
+        <MdAppShortcut className='w-[60px] h-[60px] text-[#6d6c6c]'/>
             </div>
-            Web Development
+            App Dev
         </div>
 
         <div className='w-[100px] h-[130px] font-light text-[13px] flex flex-col gap-3 text-center'>
-            <div className='w-[100px] h-[90px] bg-[#fbd9fb] rounded-lg flex items-center justify-center'>
-        <TbDeviceDesktopAnalytics className='w-[60px] h-[60px] text-[#6d6c6c]'/>
+            <div className='w-[100px] h-[90px] bg-[#a12248] rounded-lg flex items-center justify-center'>
+        <SiHackthebox className='w-[60px] h-[60px] text-[#6d6c6c]'/>
             </div>
-            Web Development
+            Ethical Hacking
         </div>
 
         <div className='w-[100px] h-[130px] font-light text-[13px] flex flex-col gap-3 text-center'>
-            <div className='w-[100px] h-[90px] bg-[#fbd9fb] rounded-lg flex items-center justify-center'>
-        <TbDeviceDesktopAnalytics className='w-[60px] h-[60px] text-[#6d6c6c]'/>
+            <div className='w-[100px] h-[90px] bg-[#3769d4] rounded-lg flex items-center justify-center'>
+        <SiOpenai className='w-[60px] h-[60px] text-[#6d6c6c]'/>
             </div>
-            Web Development
+            AI/ML
         </div>
 
         <div className='w-[100px] h-[130px] font-light text-[13px] flex flex-col gap-3 text-center'>
-            <div className='w-[100px] h-[90px] bg-[#fbd9fb] rounded-lg flex items-center justify-center'>
-        <TbDeviceDesktopAnalytics className='w-[60px] h-[60px] text-[#6d6c6c]'/>
+            <div className='w-[100px] h-[90px] bg-[#020617] rounded-lg flex items-center justify-center'>
+        <Si365Datascience className='w-[60px] h-[60px] text-[#6d6c6c]'/>
             </div>
-            Web Development
+            Data Science
         </div>
 
         <div className='w-[100px] h-[130px] font-light text-[13px] flex flex-col gap-3 text-center'>
-            <div className='w-[100px] h-[90px] bg-[#fbd9fb] rounded-lg flex items-center justify-center'>
-        <TbDeviceDesktopAnalytics className='w-[60px] h-[60px] text-[#6d6c6c]'/>
+            <div className='w-[100px] h-[90px] bg-[#38BDF8] rounded-lg flex items-center justify-center'>
+        <IoAnalytics className='w-[60px] h-[60px] text-[#6d6c6c]'/>
             </div>
-            Web Development
+            Data Analytics
         </div>
 
         <div className='w-[100px] h-[130px] font-light text-[13px] flex flex-col gap-3 text-center'>
-            <div className='w-[100px] h-[90px] bg-[#fbd9fb] rounded-lg flex items-center justify-center'>
-        <TbDeviceDesktopAnalytics className='w-[60px] h-[60px] text-[#6d6c6c]'/>
+            <div className='w-[100px] h-[90px] bg-[#A78BFA] rounded-lg flex items-center justify-center'>
+        <SiOpenaigym className='w-[60px] h-[60px] text-[#6d6c6c]'/>
             </div>
-            Web Development
+            AI Tools
         </div>
       </div>
     </div>
